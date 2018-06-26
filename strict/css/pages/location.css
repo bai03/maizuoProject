@@ -7,11 +7,16 @@
 }
 .classboxwrap{
     display: flex;
+    flex-wrap: wrap;
 }
 .citybox{
-    height: 30px;
+    height: 40px;
     width: 25%;
-    line-height: 30px;
+    line-height: 40px;
     font-size: 14px;
     text-align: center;
+    /* border-bottom: 1px solid #ccc; */
+}
+.location_page{
+    overflow: hidden;
 }

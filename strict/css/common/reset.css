@@ -12,7 +12,7 @@ a{
     text-decoration: none;
     color: #000;
 }
-html,#app{
+html,body,#app{
     height: 100%;
     width: 100%;
     position: relative;
@@ -23,4 +23,5 @@ html,#app{
     left: 0;
     bottom: 0;
     top: 50px;
+    overflow: hidden;
 }

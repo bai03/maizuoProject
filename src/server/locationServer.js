@@ -8,10 +8,8 @@ export function getLocationList(){
             }
         })
         .then((response)=>{
-            console.log(response);
             //数据过滤
             var arr = response.data.data.cities;
-            console.log(arr);
 
             var obj = {};
             // for(var i=65;i<=90;i++){
@@ -26,8 +24,18 @@ export function getLocationList(){
                     obj[str].push(arr[i].name);
                 }
             }
-            
-            resolve(obj);
+            var newarr = [];
+            for(var i=65;i<=90;i++){
+                var str1 = String.fromCharCode(i);
+                if(obj[str1]){
+                    var objnew = {};
+                    objnew.name = str1;
+                    objnew.data = obj[str1];
+                    newarr.push(objnew);
+                }
+            }
+
+            resolve(newarr);
         })
     })
 }
