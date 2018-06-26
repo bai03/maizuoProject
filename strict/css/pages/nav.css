@@ -1,0 +1,49 @@
+#nav{
+    height: 50px;
+    width: 100%;
+    background:rgba(0,0,0,0.8);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    color: #fff;
+    line-height: 50px;
+}
+#nav div,
+#nav p{
+    float: left;
+}
+.icon-caidan{
+    font-size: 20px
+}
+.navlink{
+    width: 15%;
+    text-align: center;
+    border-right: 1px solid #222;
+}
+h1{
+    font-weight: normal;
+    font-size: 14px;
+    float: left;
+    padding-left: 5px;
+    width: 40%;
+}
+#nav .location{
+    float: right;
+    font-size: 14px;
+    margin-right: 3px;
+}
+#nav a .location{
+    color: #fff;
+}
+#nav .mine{
+    float: right;
+    width: 15%;
+    font-size: 14px;
+    text-align: center;
+    font-weight: bold;
+}
+#nav .icon-xia{
+    font-size: 12px;
+    margin-left: 2px
+}

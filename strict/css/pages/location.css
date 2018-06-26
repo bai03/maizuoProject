@@ -1,0 +1,17 @@
+.gray{
+    height: 40px;
+    line-height: 40px;
+    background: #ccc;
+    font-size: 14px;
+    text-indent: 20px;
+}
+.classboxwrap{
+    display: flex;
+}
+.citybox{
+    height: 30px;
+    width: 25%;
+    line-height: 30px;
+    font-size: 14px;
+    text-align: center;
+}
