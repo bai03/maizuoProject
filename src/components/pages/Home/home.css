@@ -1,0 +1,42 @@
+#home{
+    background: #f9f9f9;
+}
+.filecomingsoon,
+.filenowplaying{
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+.film{
+    background: #fff;
+    margin-bottom: 20px;
+}
+.home_img{
+    width: 100%;
+
+}
+.filmnamebox{
+    height: 40px;
+    display: flex;
+    line-height: 40px;
+    font-size: 14px;
+}
+.filmnamebox div{
+    margin-left: 20px;
+}
+.filmnamebox span{
+    
+}
+.flagbox{
+    width: 70%;
+    height: 50px;
+    line-height: 50px;
+    color: red;
+    text-align: center;
+    display: block;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 0 auto;
+    font-weight: bold;
+}

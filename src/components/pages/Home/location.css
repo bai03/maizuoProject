@@ -1,0 +1,27 @@
+.gray{
+    height: 40px;
+    line-height: 40px;
+    background: #ccc;
+    font-size: 14px;
+    text-indent: 20px;
+}
+.classboxwrap{
+    display: flex;
+    flex-wrap: wrap;
+}
+.citybox{
+    height: 40px;
+    width: 25%;
+    line-height: 40px;
+    font-size: 14px;
+    text-align: center;
+    /* border-bottom: 1px solid #ccc; */
+}
+.location_page{
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
